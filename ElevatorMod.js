@@ -49,11 +49,20 @@ ModPE.setItem(507, "fireworks", 0, "Iron Rod");
 Player.addItemCreativeInv(500, 5, 0);
 Player.addItemCreativeInv(501, 5, 0);
 Player.addItemCreativeInv(502, 5, 0);
-Player.addItemCreativeInv(503,  5, 0);
+Player.addItemCreativeInv(503, 5, 0);
 Player.addItemCreativeInv(504, 5, 0);
 Player.addItemCreativeInv(505, 5, 0);
 Player.addItemCreativeInv(506, 5, 0);
 Player.addItemCreativeInv(507, 5, 0);
+
+Player.addItemCreativeInv(180, 5, 0);
+Player.addItemCreativeInv(181, 5, 0);
+Player.addItemCreativeInv(182, 5, 0);
+Player.addItemCreativeInv(183, 5, 0);
+Player.addItemCreativeInv(184, 5, 0);
+Player.addItemCreativeInv(185, 5, 0);
+Player.addItemCreativeInv(186, 5, 0);
+Player.addItemCreativeInv(187, 5, 0);
 
 //Category
 Item.setCategory(500, ItemCategory.TOOL);
@@ -64,6 +73,15 @@ Item.setCategory(504, ItemCategory.TOOL);
 Item.setCategory(505, ItemCategory.TOOL);
 Item.setCategory(506, ItemCategory.TOOL);
 Item.setCategory(507, ItemCategory.TOOL);
+
+Item.setCategory(180, ItemCategory.TOOL);
+Item.setCategory(181, ItemCategory.TOOL);
+Item.setCategory(182, ItemCategory.TOOL);
+Item.setCategory(183, ItemCategory.TOOL);
+Item.setCategory(184, ItemCategory.TOOL);
+Item.setCategory(185, ItemCategory.TOOL);
+Item.setCategory(186, ItemCategory.TOOL);
+Item.setCategory(187, ItemCategory.TOOL);
 
 //NewLevel
 function newLevel(){
