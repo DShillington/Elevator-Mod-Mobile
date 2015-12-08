@@ -5,8 +5,36 @@ Author: papertazer
 
 //Blocks
 Block.defineBlock(180, "Elevator Up [Player]", [["diamond_block", 0], ["lapis_block", 0], ["gold_block", 0], ["emerald_block", 0], ["iron_block", 0], ["coal_block", 0]]);
-Block.setDestroyTime(180, 0.3);
+Block.defineBlock(181, "Elevator Down [Player]", [["diamond_block", 0], ["lapis_block", 0], ["gold_block", 0], ["emerald_block", 0], ["iron_block", 0], ["coal_block", 0]]);
+Block.defineBlock(182, "Elevator Up [Mob]", [["diamond_block", 0], ["lapis_block", 0], ["gold_block", 0], ["emerald_block", 0], ["iron_block", 0], ["coal_block", 0]]);
+Block.defineBlock(183, "Elevator Down [Mob]", [["diamond_block", 0], ["lapis_block", 0], ["gold_block", 0], ["emerald_block", 0], ["iron_block", 0], ["coal_block", 0]]);
+Block.defineBlock(184, "Elevator Up [Item]", [["diamond_block", 0], ["lapis_block", 0], ["gold_block", 0], ["emerald_block", 0], ["iron_block", 0], ["coal_block", 0]]);
+Block.defineBlock(185, "Elevator Down [Item]", [["diamond_block", 0], ["lapis_block", 0], ["gold_block", 0], ["emerald_block", 0], ["iron_block", 0], ["coal_block", 0]]);
+Block.defineBlock(186, "Elevator Base", [["diamond_block", 0], ["lapis_block", 0], ["gold_block", 0], ["emerald_block", 0], ["iron_block", 0], ["coal_block", 0]]);
+Block.defineBlock(187, "Elevator Cover", [["diamond_block", 0], ["lapis_block", 0], ["gold_block", 0], ["emerald_block", 0], ["iron_block", 0], ["coal_block", 0]]);
 
+//Block Destroy Times
+Block.setDestroyTime(180, 0.3);
+Block.setDestroyTime(181, 0.3);
+Block.setDestroyTime(182, 0.3);
+Block.setDestroyTime(183, 0.3);
+Block.setDestroyTime(184, 0.3);
+Block.setDestroyTime(185, 0.3);
+Block.setDestroyTime(186, 0.3);
+Block.setDestroyTime(187, 0.3);
+
+//Block Transparancy
+//1 = transparent.
+//2 = translucent.
+//0 = opaque.
+Block.setRenderLayer(180,0);
+Block.setRenderLayer(181,0);
+Block.setRenderLayer(182,0);
+Block.setRenderLayer(183,0);
+Block.setRenderLayer(184,0);
+Block.setRenderLayer(185,0);
+Block.setRenderLayer(186,0);
+Block.setRenderLayer(187,0);
 //Items
 ModPE.setItem(500, "fireworks", 0, "Thank you! - Papertazer");
 ModPE.setItem(501, "fireworks", 0, "Up Arrow [Player]");
@@ -18,7 +46,6 @@ ModPE.setItem(506, "fireworks", 0, "Down Arrow [Item]");
 ModPE.setItem(507, "fireworks", 0, "Iron Rod");
 
 //Inventory
-
 Player.addItemCreativeInv(500, 5, 0);
 Player.addItemCreativeInv(501, 5, 0);
 Player.addItemCreativeInv(502, 5, 0);
@@ -29,7 +56,6 @@ Player.addItemCreativeInv(506, 5, 0);
 Player.addItemCreativeInv(507, 5, 0);
 
 //Category
-
 Item.setCategory(500, ItemCategory.TOOL);
 Item.setCategory(501, ItemCategory.TOOL);
 Item.setCategory(502, ItemCategory.TOOL);
