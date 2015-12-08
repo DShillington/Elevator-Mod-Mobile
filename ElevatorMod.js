@@ -18,7 +18,6 @@ ModPE.setItem(506, "fireworks", 0, "Down Arrow [Item]");
 ModPE.setItem(507, "fireworks", 0, "Iron Rod");
 
 //Inventory
-Player.addItemCreativeInv(180, 5, 0);
 
 Player.addItemCreativeInv(500, 5, 0);
 Player.addItemCreativeInv(501, 5, 0);
@@ -30,7 +29,6 @@ Player.addItemCreativeInv(506, 5, 0);
 Player.addItemCreativeInv(507, 5, 0);
 
 //Category
-Block.setCategory(180, ItemCategory.TOOL);
 
 Item.setCategory(500, ItemCategory.TOOL);
 Item.setCategory(501, ItemCategory.TOOL);
