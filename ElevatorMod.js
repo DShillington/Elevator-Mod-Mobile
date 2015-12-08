@@ -2,7 +2,8 @@
 Elevator Mod Mobile
 Author: papertazer
 */
-
+var 180 = "https://raw.githubusercontent.com/papertazer/Elevator-Mod-Mobile/master/PlayerUp.png";
+ModPE.overrideTexture("images/items-opaque.png", 180);
 //Blocks
 Block.defineBlock(180, "Elevator Up [Player]", [["diamond_block", 0], ["lapis_block", 0], ["gold_block", 0], ["emerald_block", 0], ["iron_block", 0], ["coal_block", 0]]);
 Block.defineBlock(181, "Elevator Down [Player]", [["diamond_block", 0], ["lapis_block", 0], ["gold_block", 0], ["emerald_block", 0], ["iron_block", 0], ["coal_block", 0]]);
@@ -12,6 +13,8 @@ Block.defineBlock(184, "Elevator Up [Item]", [["diamond_block", 0], ["lapis_bloc
 Block.defineBlock(185, "Elevator Down [Item]", [["diamond_block", 0], ["lapis_block", 0], ["gold_block", 0], ["emerald_block", 0], ["iron_block", 0], ["coal_block", 0]]);
 Block.defineBlock(186, "Elevator Base", [["diamond_block", 0], ["lapis_block", 0], ["gold_block", 0], ["emerald_block", 0], ["iron_block", 0], ["coal_block", 0]]);
 Block.defineBlock(187, "Elevator Cover", [["diamond_block", 0], ["lapis_block", 0], ["gold_block", 0], ["emerald_block", 0], ["iron_block", 0], ["coal_block", 0]]);
+
+ModPE.overrideTexture(images/)
 
 //Block Destroy Times
 Block.setDestroyTime(180, 0.3);
