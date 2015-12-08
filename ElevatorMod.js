@@ -18,7 +18,7 @@ ModPE.setItem(506, "fireworks", 0, "Down Arrow [Item]");
 ModPE.setItem(507, "fireworks", 0, "Iron Rod");
 
 //Inventory
-Player.addBlockCreativeInv(180, 5, 0);
+Player.addItemCreativeInv(180, 5, 0);
 
 Player.addItemCreativeInv(500, 5, 0);
 Player.addItemCreativeInv(501, 5, 0);
