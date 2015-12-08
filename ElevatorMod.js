@@ -2,8 +2,8 @@
 Elevator Mod Mobile
 Author: papertazer
 */
-var 180 = "https://raw.githubusercontent.com/papertazer/Elevator-Mod-Mobile/master/PlayerUp.png";
-ModPE.overrideTexture("images/items-opaque.png", 180);
+var PlayerUp = "https://raw.githubusercontent.com/papertazer/Elevator-Mod-Mobile/master/PlayerUp.png";
+ModPE.overrideTexture("images/items-opaque.png", PlayerUp);
 //Blocks
 Block.defineBlock(180, "Elevator Up [Player]", [["diamond_block", 0], ["lapis_block", 0], ["gold_block", 0], ["emerald_block", 0], ["iron_block", 0], ["coal_block", 0]]);
 Block.defineBlock(181, "Elevator Down [Player]", [["diamond_block", 0], ["lapis_block", 0], ["gold_block", 0], ["emerald_block", 0], ["iron_block", 0], ["coal_block", 0]]);
@@ -14,7 +14,7 @@ Block.defineBlock(185, "Elevator Down [Item]", [["diamond_block", 0], ["lapis_bl
 Block.defineBlock(186, "Elevator Base", [["diamond_block", 0], ["lapis_block", 0], ["gold_block", 0], ["emerald_block", 0], ["iron_block", 0], ["coal_block", 0]]);
 Block.defineBlock(187, "Elevator Cover", [["diamond_block", 0], ["lapis_block", 0], ["gold_block", 0], ["emerald_block", 0], ["iron_block", 0], ["coal_block", 0]]);
 
-ModPE.overrideTexture(images/)
+
 
 //Block Destroy Times
 Block.setDestroyTime(180, 0.3);
@@ -40,7 +40,7 @@ Block.setRenderLayer(186,0);
 Block.setRenderLayer(187,0);
 //Items
 ModPE.setItem(500, "fireworks", 0, "Thank you! - Papertazer");
-ModPE.setItem(501, "fireworks", 0, "Up Arrow [Player]");
+ModPE.setItem(501, "PlayerUp", 0, "Up Arrow [Player]");
 ModPE.setItem(502, "fireworks", 0, "Down Arrow [Player]");
 ModPE.setItem(503, "fireworks", 0, "Up Arrow [Mob]");
 ModPE.setItem(504, "fireworks", 0, "Down Arrow [Mob]");
