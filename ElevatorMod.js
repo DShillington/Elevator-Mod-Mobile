@@ -7,7 +7,7 @@ ModPE.setItem(502, "fireworks", 0, "Down Arrow [Player]");
 
 function useItem(x, y, z, itemId, blockId, side, data){
 if(itemId = 500){
-clientMessage("Thank you for downloading the Elevator Mod");
+clientMessage("Thanks for downloading the Elevator Mod!");
 }
 
 }
