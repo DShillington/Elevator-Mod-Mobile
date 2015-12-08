@@ -3,7 +3,11 @@ Elevator Mod Mobile
 Author: papertazer
 */
 
-//SetItem
+//Blocks
+Block.defineBlock(180, "Elevator Up [Player]", [["diamond_block", 0], ["lapis_block", 0], ["gold_block", 0], ["emerald_block", 0], ["iron_block", 0], ["coal_block", 0"]]);
+Block.setDestroyTime(180, 0.3);
+
+//Items
 ModPE.setItem(500, "fireworks", 0, "Thank you! - Papertazer");
 ModPE.setItem(501, "fireworks", 0, "Up Arrow [Player]");
 ModPE.setItem(502, "fireworks", 0, "Down Arrow [Player]");
@@ -14,6 +18,8 @@ ModPE.setItem(506, "fireworks", 0, "Down Arrow [Item]");
 ModPE.setItem(507, "fireworks", 0, "Iron Rod");
 
 //Inventory
+Player.addBlockCreativeInv(180, 5, 0);
+
 Player.addItemCreativeInv(500, 5, 0);
 Player.addItemCreativeInv(501, 5, 0);
 Player.addItemCreativeInv(502, 5, 0);
@@ -24,6 +30,8 @@ Player.addItemCreativeInv(506, 5, 0);
 Player.addItemCreativeInv(507, 5, 0);
 
 //Category
+Block.setCategory(180, ItemCategory.TOOL);
+
 Item.setCategory(500, ItemCategory.TOOL);
 Item.setCategory(501, ItemCategory.TOOL);
 Item.setCategory(502, ItemCategory.TOOL);
@@ -42,6 +50,6 @@ print("Papertazer");
 		clientMessage("Update/downgrade your MCPE or check for mod updates.");
 	}
     if(ModPE.getMinecraftVersion()=="0.13.0"){
-clientMessage("<Elevator Mod Mod> Loaded Version: 0.1.0");
+clientMessage("<Elevator Mod> Loaded Version: 0.1.0");
 }
 }
