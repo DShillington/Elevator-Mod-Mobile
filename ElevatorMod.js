@@ -2,11 +2,10 @@
 Elevator Mod Mobile
 Author: papertazer
 */
-var PlayerUp = "https://raw.githubusercontent.com/papertazer/Elevator-Mod-Mobile/master/PlayerUp.png";
-ModPE.overrideTexture("images/items-opaque.png", PlayerUp);
+
 //Blocks
-Block.defineBlock(180, "Elevator Up [Player]", [["diamond_block", 0], ["lapis_block", 0], ["gold_block", 0], ["emerald_block", 0], ["iron_block", 0], ["coal_block", 0]]);
-Block.defineBlock(181, "Elevator Down [Player]", [["diamond_block", 0], ["lapis_block", 0], ["gold_block", 0], ["emerald_block", 0], ["iron_block", 0], ["coal_block", 0]]);
+Block.defineBlock(180, "Elevator Up [Player]", [["planks", 0], ["planks", 0], ["planks", 0], ["planks", 0], ["planks", 0], ["planks", 0]]);
+Block.defineBlock(181, "Elevator Down [Player]", [["planks", 0], ["planks", 0], ["planks", 0], ["planks", 0], ["planks", 0], ["planks", 0]]);
 Block.defineBlock(182, "Elevator Up [Mob]", [["diamond_block", 0], ["lapis_block", 0], ["gold_block", 0], ["emerald_block", 0], ["iron_block", 0], ["coal_block", 0]]);
 Block.defineBlock(183, "Elevator Down [Mob]", [["diamond_block", 0], ["lapis_block", 0], ["gold_block", 0], ["emerald_block", 0], ["iron_block", 0], ["coal_block", 0]]);
 Block.defineBlock(184, "Elevator Up [Item]", [["diamond_block", 0], ["lapis_block", 0], ["gold_block", 0], ["emerald_block", 0], ["iron_block", 0], ["coal_block", 0]]);
