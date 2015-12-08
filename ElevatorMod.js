@@ -1,7 +1,7 @@
 /*Elevator Mod Mobile*/
 /*Author: papertazer*/
 
-var PlayerUp = "https://raw.githubusercontent.com/papertazer/Elevator-Mod-Mobile/master/PlayerUp.png"
+var PlayerUp = "https://raw.githubusercontent.com/papertazer/Elevator-Mod-Mobile/master/PlayerUp.png";
 
 ModPE.overrideTexture("images/PlayerUp.png", PlayerUp);
 
@@ -15,7 +15,8 @@ ModPE.setItem(506, "fireworks", 0, "Down Arrow [Item]");
 ModPE.setItem(507, "fireworks", 0, "Iron Rod");
 
 function useItem(x, y, z, itemId, blockId, side, data){
-if(itemId = 500){
+if(itemId = 500)
+{
 clientMessage("Thanks for downloading the Elevator Mod!");
 }
 
