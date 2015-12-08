@@ -1,8 +1,12 @@
 /*Elevator Mod Mobile*/
 /*Author: papertazer*/
 
+var PlayerUp = "https://raw.githubusercontent.com/papertazer/Elevator-Mod-Mobile/master/PlayerUp.png"
+
+ModPE.overrideTexture("images/PlayerUp.png", PlayerUp);
+
 ModPE.setItem(500, "fireworks", 0, "Thank you! - Papertazer");
-ModPE.setItem(501, "fireworks", 0, "Up Arrow [Player]");
+ModPE.setItem(501, "blaze_rod", 0, "Up Arrow [Player]");
 ModPE.setItem(502, "fireworks", 0, "Down Arrow [Player]");
 ModPE.setItem(503, "fireworks", 0, "Up Arrow [Mob]");
 ModPE.setItem(504, "fireworks", 0, "Down Arrow [Mob]");
