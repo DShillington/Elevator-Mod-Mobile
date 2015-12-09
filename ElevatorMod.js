@@ -28,12 +28,12 @@ function modTick()
   y = getPlayerY();
   z = getPlayerZ();
   
-  if(getTile(x, y-2, z) == 180)
+  if(getTile(x, y, z-1) == 180)
   {
 setVelY(getPlayerEnt(), 0.50);
   }
   
-   if(getTile(x, y-2, z) == 181)
+   if(getTile(x, y, z-1) == 181)
   {
 setVelY(getPlayerEnt(), -0.50);
   }
