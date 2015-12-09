@@ -3,6 +3,7 @@ Elevator Mod Mobile
 Author: papertazer
 */
 
+Block.setColor(180,[0x996600]);
 //Blocks
 Block.defineBlock(180, "Elevator Up [Player]", [["planks", 0], ["planks", 0], ["planks", 0], ["planks", 0], ["planks", 0], ["planks", 0]]);
 Block.defineBlock(181, "Elevator Down [Player]", [["planks", 0], ["planks", 0], ["planks", 0], ["planks", 0], ["planks", 0], ["planks", 0]]);
