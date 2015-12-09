@@ -7,7 +7,7 @@ EARLY ALPHA
 Block.setColor(180,[0x4dd2ff]);
 Block.setColor(181,[0x4dd2ff]);
 //Blocks
-Block.defineBlock(180, "Elevator Up", [["stained_clay", 0], ["stained_clay", 0], ["stained_clay", 0], ["stained_clay", 0], ["stained_clay", 0], ["stained_clay", 0]]);
+Block.defineBlock(180, "Elevator Up", [["stained_clay", 0], ["stained_clay", 0], ["stained_clay", 0], ["stained_clay", 0], ["stained_clay", 0], ["stained_clay", 0]], 3, 3);
 Block.defineBlock(181, "Elevator Down", [["stained_clay", 0], ["stained_clay", 0], ["stained_clay", 0], ["stained_clay", 0], ["stained_clay", 0], ["stained_clay", 0]]);
 
 //Block Destroy Times
@@ -27,9 +27,15 @@ function modTick()
   x = getPlayerX();
   y = getPlayerY();
   z = getPlayerZ();
+  
   if(getTile(x, y-2, z) == 180)
   {
-setVelY(getPlayerEnt(), 1.50);
+setVelY(getPlayerEnt(), 0.50);
+  }
+  
+   if(getTile(x, y-2, z) == 181)
+  {
+setVelY(getPlayerEnt(), -0.50);
   }
 } 
 
