@@ -20,27 +20,18 @@ Player.addItemCreativeInv(181, 5, 0);
 Item.setCategory(180, ItemCategory.TOOL);
 Item.setCategory(181, ItemCategory.TOOL);
 
-var x; 
-var y; 
-var z; 
-
-function modTick() 
-
-{ 
-
-  x = getPlayerX(); 
-  y = getPlayerY(); 
-  z = getPlayerZ(); 
-
-  if(getTile(x, y-0.5, z) == 180) 
-
-  { 
-
-setVelY(getPlayerEnt(), 1.55); 
-
-  } 
-
-}  
+var y;
+var z;
+function modTick()
+{
+  x = getPlayerX();
+  y = getPlayerY();
+  z = getPlayerZ();
+  if(getTile(x, y-2, z) == 180)
+  {
+setVelY(getPlayerEnt(), 1.50);
+  }
+} 
 
 //NewLevel
 function newLevel(){
